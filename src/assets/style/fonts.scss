@@ -1,0 +1,79 @@
+@import "variables.scss";
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url("../fonts/gotham/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: Gotham-Medium;
+  src: url("../fonts/gotham/Gotham-Medium.otf");
+}
+@font-face {
+  font-family: Gotham-Light;
+  src: url("../fonts/gotham/Gotham-Light.otf");
+}
+h1,h2,h3,h4,h5,h6,p,label{
+  margin-bottom: 0 !important;
+}
+h1 {
+  font-family: Gotham-Bold;
+  font-size: 48px !important;
+  color: $black
+}
+
+h2 {
+  font-family: Gotham-Bold;
+  font-size: 36px !important;
+  color: $black
+}
+
+h3 {
+  font-family: Gotham-Bold;
+  font-size: 24px !important;
+  color: $black
+}
+
+h4 {
+  font-family: Gotham-Bold;
+  font-size: 16px !important;
+  color: $black
+}
+
+h5 {
+  font-family: Gotham-Bold;
+  font-size: 14px !important;
+  color: $black
+}
+
+h6 {
+  font-family: Gotham-Bold;
+  font-size: 13px !important;
+  color: $black
+}
+
+.primary-text {
+  font-family: Gotham-Medium;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.75;
+}
+
+.red-header {
+  color: $red;
+  font-family: Gotham-Bold;
+  line-height: 1.54;
+
+  &.sub {
+    font-size: 14px;
+  }
+
+  &.paragraph {
+    font-size: 13px;
+  }
+}
+
+.sub-header {
+  line-height: 1.75;
+  font-size: 16px;
+  color: $black;
+}

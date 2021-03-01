@@ -1,0 +1,38 @@
+@import "variables.scss";
+@import "fonts.scss";
+@import "inputs.scss";
+
+
+#app {
+  margin: 0 auto !important;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1206px !important;
+  }
+}
+
+.show-mobile {
+  display: none !important;
+  @media screen and (max-width: 520px) {
+    display: block !important;
+  }
+}
+.hide-mobile{
+  @media screen and (max-width: 520px) {
+    display: none !important;
+  }
+}
+
+.hide-mobile-device {
+  @media screen and (max-width: 992px) {
+    display: none !important;
+  }
+}
+.show-mobile-device {
+  display: none !important;
+  @media screen and (max-width: 992px) {
+    display: flex !important;
+  }
+}
